@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [ 'hello_node = arm_lab.hello_node:main',
+        'talker_node = arm_lab.talker_node:main',
+        'listener_node = arm_lab.listener_node:main',
         ],
     },
 )

@@ -13,6 +13,8 @@ def main(args=None):
     rclpy.init(args=args)
 
     node = HelloNode()
+    
+    rclpy.spin(node)
 
     rclpy.shutdown()
 

@@ -10,6 +10,8 @@ setup.py
 ../../build/arm_lab/arm_lab.egg-info/zip-safe
 arm_lab/__init__.py
 arm_lab/hello_node.py
+arm_lab/listener_node.py
+arm_lab/talker_node.py
 resource/arm_lab
 test/test_copyright.py
 test/test_flake8.py
