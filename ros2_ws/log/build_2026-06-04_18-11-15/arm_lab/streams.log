@@ -1,0 +1,33 @@
+[0.733s] Invoking command in '/home/akasha/MoMa-ArmLab/ros2_ws/src/arm_lab': PYTHONPATH=/home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_lab build --build-base /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build install --record /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/install.log --single-version-externally-managed install_data
+[0.968s] running egg_info
+[0.968s] creating ../../build/arm_lab/arm_lab.egg-info
+[0.969s] writing ../../build/arm_lab/arm_lab.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/arm_lab/arm_lab.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/arm_lab/arm_lab.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/arm_lab/arm_lab.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/arm_lab/arm_lab.egg-info/top_level.txt
+[0.969s] writing manifest file '../../build/arm_lab/arm_lab.egg-info/SOURCES.txt'
+[0.971s] reading manifest file '../../build/arm_lab/arm_lab.egg-info/SOURCES.txt'
+[0.971s] writing manifest file '../../build/arm_lab/arm_lab.egg-info/SOURCES.txt'
+[0.971s] running build
+[0.971s] running build_py
+[0.972s] creating /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build
+[0.972s] creating /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build/lib
+[0.972s] creating /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build/lib/arm_lab
+[0.972s] copying arm_lab/__init__.py -> /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build/lib/arm_lab
+[0.972s] running install
+[0.972s] running install_lib
+[0.973s] creating /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab
+[0.973s] copying /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build/lib/arm_lab/__init__.py -> /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab
+[0.973s] byte-compiling /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__init__.py to __init__.cpython-310.pyc
+[0.973s] running install_data
+[0.973s] creating /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/ament_index
+[0.973s] creating /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/ament_index/resource_index
+[0.974s] creating /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/ament_index/resource_index/packages
+[0.974s] copying resource/arm_lab -> /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/ament_index/resource_index/packages
+[0.974s] copying package.xml -> /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab
+[0.974s] running install_egg_info
+[0.976s] Copying ../../build/arm_lab/arm_lab.egg-info to /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab-0.0.0-py3.10.egg-info
+[0.976s] running install_scripts
+[0.994s] writing list of installed files to '/home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/install.log'
+[1.016s] Invoked command in '/home/akasha/MoMa-ArmLab/ros2_ws/src/arm_lab' returned '0': PYTHONPATH=/home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_lab build --build-base /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/build install --record /home/akasha/MoMa-ArmLab/ros2_ws/build/arm_lab/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+hello_node = arm_lab.hello_node:main
+
