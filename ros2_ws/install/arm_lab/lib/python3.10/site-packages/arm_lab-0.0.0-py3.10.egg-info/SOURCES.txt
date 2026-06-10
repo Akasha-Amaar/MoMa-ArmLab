@@ -15,7 +15,9 @@ arm_lab/hello_node.py
 arm_lab/listener_node.py
 arm_lab/parameter_node.py
 arm_lab/talker_node.py
+config/arm_lab_params.yaml
 launch/communication.launch.py
+launch/parameter.launch.py
 resource/arm_lab
 test/test_copyright.py
 test/test_flake8.py

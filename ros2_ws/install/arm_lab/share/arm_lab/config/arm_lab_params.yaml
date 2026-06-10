@@ -1,0 +1,4 @@
+parameter_node:
+  ros__parameters:
+    robot_name: "reactor_from_yaml"
+    publish_rate: 2.0
