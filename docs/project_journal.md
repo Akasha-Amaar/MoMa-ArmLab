@@ -277,3 +277,11 @@ Phase 10
 The goal is not only to learn one robot.
 
 The goal is to learn a repeatable engineering process that can be applied to any robotic platform in industry.
+
+## ROS Actions
+
+Created a Fibonacci action server:
+
+```bash
+ros2 run arm_lab fibonacci_action_server
+ros2 action send_goal /fibonacci example_interfaces/action/Fibonacci "{order: 7}" --feedback
