@@ -28,6 +28,7 @@ setup(
         'listener_node = arm_lab.listener_node:main',
 	'add_two_ints_server = arm_lab.add_two_ints_server:main',
 	'fibonacci_action_server = arm_lab.fibonacci_action_server:main',
+	'parameter_node = arm_lab.parameter_node:main',
         ],
     },
 )

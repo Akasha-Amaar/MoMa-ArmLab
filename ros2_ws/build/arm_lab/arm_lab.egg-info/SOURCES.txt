@@ -13,6 +13,7 @@ arm_lab/add_two_ints_server.py
 arm_lab/fibonacci_action_server.py
 arm_lab/hello_node.py
 arm_lab/listener_node.py
+arm_lab/parameter_node.py
 arm_lab/talker_node.py
 resource/arm_lab
 test/test_copyright.py
