@@ -26,6 +26,8 @@ setup(
         'console_scripts': [ 'hello_node = arm_lab.hello_node:main',
         'talker_node = arm_lab.talker_node:main',
         'listener_node = arm_lab.listener_node:main',
+	'add_two_ints_server = arm_lab.add_two_ints_server:main',
+	'fibonacci_action_server = arm_lab.fibonacci_action_server:main',
         ],
     },
 )

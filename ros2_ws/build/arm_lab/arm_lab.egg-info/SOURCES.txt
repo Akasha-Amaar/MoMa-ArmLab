@@ -9,6 +9,8 @@ setup.py
 ../../build/arm_lab/arm_lab.egg-info/top_level.txt
 ../../build/arm_lab/arm_lab.egg-info/zip-safe
 arm_lab/__init__.py
+arm_lab/add_two_ints_server.py
+arm_lab/fibonacci_action_server.py
 arm_lab/hello_node.py
 arm_lab/listener_node.py
 arm_lab/talker_node.py
