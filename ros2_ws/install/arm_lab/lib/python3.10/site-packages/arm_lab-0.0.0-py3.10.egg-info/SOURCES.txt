@@ -14,6 +14,7 @@ arm_lab/fibonacci_action_server.py
 arm_lab/hello_node.py
 arm_lab/listener_node.py
 arm_lab/parameter_node.py
+arm_lab/static_tf_node.py
 arm_lab/talker_node.py
 config/arm_lab_params.yaml
 launch/communication.launch.py

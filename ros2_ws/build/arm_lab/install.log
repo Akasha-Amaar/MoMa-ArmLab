@@ -5,6 +5,7 @@
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/hello_node.py
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/listener_node.py
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/talker_node.py
+/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/static_tf_node.py
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/add_two_ints_server.cpython-310.pyc
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/__init__.cpython-310.pyc
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/parameter_node.cpython-310.pyc
@@ -12,6 +13,7 @@
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/hello_node.cpython-310.pyc
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/listener_node.cpython-310.pyc
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/talker_node.cpython-310.pyc
+/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab/__pycache__/static_tf_node.cpython-310.pyc
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/ament_index/resource_index/packages/arm_lab
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/package.xml
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/launch/communication.launch.py
@@ -29,4 +31,5 @@
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab/hello_node
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab/listener_node
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab/parameter_node
+/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab/static_tf_node
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab/talker_node
