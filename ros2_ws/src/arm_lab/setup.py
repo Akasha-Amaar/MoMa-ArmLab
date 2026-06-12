@@ -16,6 +16,8 @@ setup(
     	glob('launch/*.launch.py')),
     	('share/' + package_name + '/config',
     	glob('config/*.yaml')),
+    	('share/' + package_name + '/urdf',
+    	glob('urdf/*.urdf') + glob('urdf/*.xacro')),
     	],
     install_requires=['setuptools'],
     zip_safe=True,
