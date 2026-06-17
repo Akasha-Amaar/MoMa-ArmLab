@@ -5,36 +5,44 @@
 
   <xacro:property name="camera_height" value="1.0"/>
 
-  <link name="base_link">
-    <visual>
-      <geometry>
-        <box size="0.5 0.3 0.1"/>
-      </geometry>
-      <material name="blue">
-        <color rgba="0 0 1 1"/>
-      </material>
-    </visual>
-  </link>
+  <xacro:macro name="box_link" params="name size color">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <box size="${size}"/>
+        </geometry>
+        <material name="${name}_material">
+          <color rgba="${color}"/>
+        </material>
+      </visual>
+    </link>
+  </xacro:macro>
 
-  <link name="camera_link">
-    <visual>
-      <geometry>
-        <box size="0.1 0.1 0.1"/>
-      </geometry>
-      <material name="red">
-        <color rgba="1 0 0 1"/>
-      </material>
-    </visual>
-  </link>
+  <xacro:box_link
+    name="base_link"
+    size="0.5 0.3 0.1"
+    color="0 0 1 1"/>
+  
+  <xacro:box_link
+    name="arm_link"
+    size="0.1 0.1 0.6"
+    color="0 1 0 1"/>
+
+  <xacro:box_link
+    name="camera_link"
+    size="0.1 0.1 0.1"
+    color="1 0 0 1"/>
+
+  <joint name="base_to_arm_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="arm_link"/>
+  <origin xyz="0 0 0.35" rpy="0 0 0"/>
+  </joint>
 
   <joint name="base_to_camera_joint" type="fixed">
-    <parent link="base_link"/>
+    <parent link="arm_link"/>
     <child link="camera_link"/>
-
-    <origin
-      xyz="0 0 ${camera_height}"
-      rpy="0 0 0"/>
-
+    <origin xyz="0 0 0.4" rpy="0 0 0"/>
   </joint>
 
 </robot>
