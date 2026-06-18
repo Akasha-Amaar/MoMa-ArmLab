@@ -21,6 +21,7 @@ launch/communication.launch.py
 launch/display_simple_robot.launch.py
 launch/gazebo_world.launch.py
 launch/parameter.launch.py
+launch/spawn_robot_gazebo.launch.py
 resource/arm_lab
 test/test_copyright.py
 test/test_flake8.py

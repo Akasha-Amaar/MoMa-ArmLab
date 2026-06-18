@@ -6,6 +6,32 @@
       <real_time_factor>1.0</real_time_factor>
     </physics>
 
+  <model name="ground_plane">
+  <static>true</static>
+  <link name="link">
+    <collision name="collision">
+      <geometry>
+        <plane>
+          <normal>0 0 1</normal>
+          <size>100 100</size>
+        </plane>
+      </geometry>
+    </collision>
+    <visual name="visual">
+      <geometry>
+        <plane>
+          <normal>0 0 1</normal>
+          <size>100 100</size>
+        </plane>
+      </geometry>
+      <material>
+        <ambient>0.8 0.8 0.8 1</ambient>
+        <diffuse>0.8 0.8 0.8 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
     <plugin
       filename="gz-sim-physics-system"
       name="gz::sim::systems::Physics">
