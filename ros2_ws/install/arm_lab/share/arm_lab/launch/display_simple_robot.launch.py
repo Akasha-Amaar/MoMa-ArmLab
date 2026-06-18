@@ -22,6 +22,12 @@ def generate_launch_description():
             {"robot_description": robot_description}
         ]
     )
+    
+    joint_state_publisher_gui = Node(
+    package="joint_state_publisher_gui",
+    executable="joint_state_publisher_gui",
+    name="joint_state_publisher_gui"
+    )
 
     rviz = Node(
         package="rviz2",
@@ -30,6 +36,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+    	joint_state_publisher_gui,
         robot_state_publisher,
         rviz
     ])
