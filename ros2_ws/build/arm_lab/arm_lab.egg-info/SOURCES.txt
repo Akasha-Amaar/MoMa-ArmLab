@@ -19,6 +19,7 @@ arm_lab/talker_node.py
 config/arm_lab_params.yaml
 launch/communication.launch.py
 launch/display_simple_robot.launch.py
+launch/gazebo_world.launch.py
 launch/parameter.launch.py
 resource/arm_lab
 test/test_copyright.py
@@ -26,3 +27,4 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/simple_robot.urdf
 urdf/simple_robot.urdf.xacro
+worlds/empty_world.sdf
