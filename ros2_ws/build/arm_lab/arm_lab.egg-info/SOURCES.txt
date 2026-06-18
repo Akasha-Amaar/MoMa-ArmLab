@@ -16,6 +16,7 @@ arm_lab/listener_node.py
 arm_lab/parameter_node.py
 arm_lab/static_tf_node.py
 arm_lab/talker_node.py
+config/arm_controllers.yaml
 config/arm_lab_params.yaml
 launch/communication.launch.py
 launch/display_simple_robot.launch.py

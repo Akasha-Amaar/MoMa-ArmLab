@@ -21,6 +21,7 @@
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/launch/spawn_robot_gazebo.launch.py
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/launch/parameter.launch.py
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/launch/display_simple_robot.launch.py
+/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/config/arm_controllers.yaml
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/config/arm_lab_params.yaml
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/urdf/simple_robot.urdf
 /home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/urdf/simple_robot.urdf.xacro
