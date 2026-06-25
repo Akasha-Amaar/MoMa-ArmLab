@@ -1,0 +1,5 @@
+# Default initial positions for simple_robot's ros2_control fake system
+
+initial_positions:
+  arm1_to_arm2_joint: 0
+  base_to_arm_joint: 0

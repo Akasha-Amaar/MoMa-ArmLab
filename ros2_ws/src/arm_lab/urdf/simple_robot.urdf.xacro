@@ -51,6 +51,11 @@
     name="camera_link"
     size="0.1 0.1 0.1"
     color="1 0 0 1"/>
+  
+  <xacro:box_link
+    name="tool0"
+    size="0.05 0.05 0.05"
+    color="1 0 1 1"/>
 
   <joint name="base_to_arm_joint" type="revolute">
     <parent link="base_link"/>
@@ -78,6 +83,12 @@
     <parent link="arm_link_2"/>
     <child link="camera_link"/>
     <origin xyz="0 0 0.4" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="arm2_to_tool0_joint" type="fixed">
+    <parent link="arm_link_2"/>
+    <child link="tool0"/>
+    <origin xyz="0 0 0.3" rpy="0 0 0"/>
   </joint>
 
   <ros2_control name="GazeboSystem" type="system">

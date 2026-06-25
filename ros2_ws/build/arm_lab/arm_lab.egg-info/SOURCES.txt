@@ -29,4 +29,5 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/simple_robot.urdf
 urdf/simple_robot.urdf.xacro
+urdf/simple_robot_generated.urdf
 worlds/empty_world.sdf

@@ -1,0 +1,27 @@
+[0.868s] Invoking command in '/workspace/MoMa-ArmLab/ros2_ws/src/arm_lab': PYTHONPATH=/workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_lab build --build-base /workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/build install --record /workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/install.log --single-version-externally-managed install_data
+[1.368s] running egg_info
+[1.368s] writing ../../build/arm_lab/arm_lab.egg-info/PKG-INFO
+[1.369s] writing dependency_links to ../../build/arm_lab/arm_lab.egg-info/dependency_links.txt
+[1.369s] writing entry points to ../../build/arm_lab/arm_lab.egg-info/entry_points.txt
+[1.369s] writing requirements to ../../build/arm_lab/arm_lab.egg-info/requires.txt
+[1.369s] writing top-level names to ../../build/arm_lab/arm_lab.egg-info/top_level.txt
+[1.372s] reading manifest file '../../build/arm_lab/arm_lab.egg-info/SOURCES.txt'
+[1.376s] writing manifest file '../../build/arm_lab/arm_lab.egg-info/SOURCES.txt'
+[1.376s] running build
+[1.376s] running build_py
+[1.376s] running install
+[1.377s] running install_lib
+[1.379s] running install_data
+[1.380s] running install_egg_info
+[1.382s] removing '/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab-0.0.0-py3.10.egg-info' (and everything under it)
+[1.382s] Copying ../../build/arm_lab/arm_lab.egg-info to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages/arm_lab-0.0.0-py3.10.egg-info
+[1.384s] running install_scripts
+[1.411s] Installing add_two_ints_server script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.411s] Installing fibonacci_action_server script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.412s] Installing hello_node script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.412s] Installing listener_node script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.412s] Installing parameter_node script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.412s] Installing static_tf_node script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.412s] Installing talker_node script to /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/arm_lab
+[1.413s] writing list of installed files to '/workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/install.log'
+[1.442s] Invoked command in '/workspace/MoMa-ArmLab/ros2_ws/src/arm_lab' returned '0': PYTHONPATH=/workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_lab build --build-base /workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/build install --record /workspace/MoMa-ArmLab/ros2_ws/build/arm_lab/install.log --single-version-externally-managed install_data
