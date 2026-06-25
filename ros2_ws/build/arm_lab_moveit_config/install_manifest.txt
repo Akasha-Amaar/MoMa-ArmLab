@@ -21,6 +21,8 @@
 /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/launch/setup_assistant.launch.py
 /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/launch/spawn_controllers.launch.py
 /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/launch/static_virtual_joint_tfs.launch.py
+/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/config/moveit_simple_controllers.yaml
+/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/config/moveit_controllers.yaml
 /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/config/simple_robot.ros2_control.xacro
 /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/config/initial_positions.yaml
 /workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config/share/arm_lab_moveit_config/config/pilz_cartesian_limits.yaml
