@@ -1,0 +1,44 @@
+# =========================
+# ROS 2
+# =========================
+build/
+install/
+log/
+
+# Colcon
+.colcon/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+
+# Vim
+*.swp
+
+# Backup files
+*~
+
+# Linux
+.DS_Store
+Thumbs.db
+
+# ROS bags
+*.db3
+*.mcap
+
+# Generated documentation
+docs/build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+
+# Temporary
+*.tmp

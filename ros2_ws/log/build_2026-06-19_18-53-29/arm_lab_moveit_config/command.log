@@ -1,2 +1,0 @@
-Invoking command in '/workspace/MoMa-ArmLab/ros2_ws/build/arm_lab_moveit_config': /usr/bin/cmake /workspace/MoMa-ArmLab/ros2_ws/src/arm_lab_moveit_config -DCMAKE_INSTALL_PREFIX=/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config
-Invoked command in '/workspace/MoMa-ArmLab/ros2_ws/build/arm_lab_moveit_config' returned '1': /usr/bin/cmake /workspace/MoMa-ArmLab/ros2_ws/src/arm_lab_moveit_config -DCMAKE_INSTALL_PREFIX=/workspace/MoMa-ArmLab/ros2_ws/install/arm_lab_moveit_config

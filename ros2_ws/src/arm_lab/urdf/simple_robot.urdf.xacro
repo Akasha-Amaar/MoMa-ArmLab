@@ -93,7 +93,7 @@
 
   <ros2_control name="GazeboSystem" type="system">
   <hardware>
-    <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    <plugin>mock_components/GenericSystem</plugin>
   </hardware>
 
   <joint name="base_to_arm_joint">
@@ -109,12 +109,7 @@
   </joint>
 </ros2_control>
 
-<gazebo>
-  <plugin
-    filename="gz_ros2_control-system"
-    name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-    <parameters>/home/akasha/MoMa-ArmLab/ros2_ws/install/arm_lab/share/arm_lab/config/arm_controllers.yaml</parameters>
-  </plugin>
-</gazebo>
+
+
 
 </robot>
